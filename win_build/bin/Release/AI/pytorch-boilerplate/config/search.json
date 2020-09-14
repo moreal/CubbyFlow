@@ -1,0 +1,4 @@
+{
+    "train.batch_size":{"_type":"choice","_value":[32,64,128]},
+    "network.version":{"_type":"choice","_value":["1_0", "1_1"]}
+}
