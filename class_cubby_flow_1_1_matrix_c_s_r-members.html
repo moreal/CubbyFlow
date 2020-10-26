@@ -147,9 +147,9 @@ $(function() {
   <tr><td class="entry"><a class="el" href="class_cubby_flow_1_1_matrix_c_s_r.html#afb134cbe9a87197cab131a38d269c221">operator-=</a>(const T &amp;s)</td><td class="entry"><a class="el" href="class_cubby_flow_1_1_matrix_c_s_r.html">CubbyFlow::MatrixCSR&lt; T &gt;</a></td><td class="entry"></td></tr>
   <tr class="even"><td class="entry"><a class="el" href="class_cubby_flow_1_1_matrix_c_s_r.html#aca0e54ce7f35d1d427f3dcfde35f2947">operator-=</a>(const MatrixCSR &amp;m)</td><td class="entry"><a class="el" href="class_cubby_flow_1_1_matrix_c_s_r.html">CubbyFlow::MatrixCSR&lt; T &gt;</a></td><td class="entry"></td></tr>
   <tr><td class="entry"><a class="el" href="class_cubby_flow_1_1_matrix_c_s_r.html#a5d5e6f1eac3e1021acb16791f0a50926">operator/=</a>(const T &amp;s)</td><td class="entry"><a class="el" href="class_cubby_flow_1_1_matrix_c_s_r.html">CubbyFlow::MatrixCSR&lt; T &gt;</a></td><td class="entry"></td></tr>
+  <tr class="even"><td class="entry"><a class="el" href="class_cubby_flow_1_1_matrix_c_s_r.html#aea698a117cf5a9247106e1bf3f171eef">operator=</a>(const MatrixCSR &amp;other)</td><td class="entry"><a class="el" href="class_cubby_flow_1_1_matrix_c_s_r.html">CubbyFlow::MatrixCSR&lt; T &gt;</a></td><td class="entry"></td></tr>
+  <tr><td class="entry"><a class="el" href="class_cubby_flow_1_1_matrix_c_s_r.html#ab37a6646ab7b254b5fe66606592e955b">operator=</a>(MatrixCSR &amp;&amp;other) noexcept</td><td class="entry"><a class="el" href="class_cubby_flow_1_1_matrix_c_s_r.html">CubbyFlow::MatrixCSR&lt; T &gt;</a></td><td class="entry"></td></tr>
   <tr class="even"><td class="entry"><a class="el" href="class_cubby_flow_1_1_matrix_c_s_r.html#a5f32c286b801b238af0f4f8e0c0935b8">operator=</a>(const E &amp;m)</td><td class="entry"><a class="el" href="class_cubby_flow_1_1_matrix_c_s_r.html">CubbyFlow::MatrixCSR&lt; T &gt;</a></td><td class="entry"></td></tr>
-  <tr><td class="entry"><a class="el" href="class_cubby_flow_1_1_matrix_c_s_r.html#aea698a117cf5a9247106e1bf3f171eef">operator=</a>(const MatrixCSR &amp;other)</td><td class="entry"><a class="el" href="class_cubby_flow_1_1_matrix_c_s_r.html">CubbyFlow::MatrixCSR&lt; T &gt;</a></td><td class="entry"></td></tr>
-  <tr class="even"><td class="entry"><a class="el" href="class_cubby_flow_1_1_matrix_c_s_r.html#ab37a6646ab7b254b5fe66606592e955b">operator=</a>(MatrixCSR &amp;&amp;other) noexcept</td><td class="entry"><a class="el" href="class_cubby_flow_1_1_matrix_c_s_r.html">CubbyFlow::MatrixCSR&lt; T &gt;</a></td><td class="entry"></td></tr>
   <tr><td class="entry"><a class="el" href="class_cubby_flow_1_1_matrix_c_s_r.html#a08bd9a6fdcbdbd4cbb27950b8f10218f">operator=</a>(const E &amp;m)</td><td class="entry"><a class="el" href="class_cubby_flow_1_1_matrix_c_s_r.html">CubbyFlow::MatrixCSR&lt; T &gt;</a></td><td class="entry"></td></tr>
   <tr class="even"><td class="entry"><a class="el" href="class_cubby_flow_1_1_matrix_c_s_r.html#a674458cab8c9152b665da999dbc389ab">operator==</a>(const MatrixCSR &amp;m) const</td><td class="entry"><a class="el" href="class_cubby_flow_1_1_matrix_c_s_r.html">CubbyFlow::MatrixCSR&lt; T &gt;</a></td><td class="entry"></td></tr>
   <tr><td class="entry"><a class="el" href="class_cubby_flow_1_1_matrix_c_s_r.html#addc71d93b3877a19c5f63e11f1eb0971">RAdd</a>(const T &amp;s) const</td><td class="entry"><a class="el" href="class_cubby_flow_1_1_matrix_c_s_r.html">CubbyFlow::MatrixCSR&lt; T &gt;</a></td><td class="entry"></td></tr>
@@ -175,6 +175,7 @@ $(function() {
   <tr><td class="entry"><a class="el" href="class_cubby_flow_1_1_matrix_c_s_r.html#a281728ab2aa93a7d9bcad2d8f7e7594d">Sub</a>(const MatrixCSR &amp;m) const</td><td class="entry"><a class="el" href="class_cubby_flow_1_1_matrix_c_s_r.html">CubbyFlow::MatrixCSR&lt; T &gt;</a></td><td class="entry"></td></tr>
   <tr class="even"><td class="entry"><a class="el" href="class_cubby_flow_1_1_matrix_c_s_r.html#a3ed6e4f494c2d8a90c4d21296cc4ca0f">Sum</a>() const</td><td class="entry"><a class="el" href="class_cubby_flow_1_1_matrix_c_s_r.html">CubbyFlow::MatrixCSR&lt; T &gt;</a></td><td class="entry"></td></tr>
   <tr><td class="entry"><a class="el" href="class_cubby_flow_1_1_matrix_c_s_r.html#ad942e8d138e17002abb62a03963c706e">Trace</a>() const</td><td class="entry"><a class="el" href="class_cubby_flow_1_1_matrix_c_s_r.html">CubbyFlow::MatrixCSR&lt; T &gt;</a></td><td class="entry"></td></tr>
+  <tr class="even"><td class="entry"><a class="el" href="class_cubby_flow_1_1_matrix_c_s_r.html#ac2eeac65e84b4891086ef4a44632353e">~MatrixCSR</a>()=default</td><td class="entry"><a class="el" href="class_cubby_flow_1_1_matrix_c_s_r.html">CubbyFlow::MatrixCSR&lt; T &gt;</a></td><td class="entry"></td></tr>
 </table></div><!-- contents -->
 <!-- HTML footer for doxygen 1.8.8-->
 <!-- start footer part -->
@@ -184,7 +185,7 @@ $(function() {
 </div>
 </div>
 <hr class="footer"/><address class="footer"><small>
-Generated on Fri Oct 9 2020 07:04:02 for CubbyFlow by &#160;<a href="http://www.doxygen.org/index.html">
+Generated on Mon Oct 26 2020 13:05:32 for CubbyFlow by &#160;<a href="http://www.doxygen.org/index.html">
 <img class="footer" src="doxygen.png" alt="doxygen"/>
 </a> 1.8.13
 </small></address>

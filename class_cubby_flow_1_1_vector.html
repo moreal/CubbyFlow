@@ -75,6 +75,7 @@ $(function() {
   <div class="summary">
 <a href="#pub-types">Public Types</a> &#124;
 <a href="#pub-methods">Public Member Functions</a> &#124;
+<a href="#pub-static-methods">Static Public Member Functions</a> &#124;
 <a href="class_cubby_flow_1_1_vector-members.html">List of all members</a>  </div>
   <div class="headertitle">
 <div class="title">CubbyFlow::Vector&lt; T, N &gt; Class Template Reference<span class="mlabels"><span class="mlabel">final</span></span></div>  </div>
@@ -120,9 +121,18 @@ Public Member Functions</h2></td></tr>
 <tr class="memitem:acd0971c77479071ab73ccea9b05a474f"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_cubby_flow_1_1_vector.html#acd0971c77479071ab73ccea9b05a474f">Vector</a> (const <a class="el" href="class_cubby_flow_1_1_vector.html">Vector</a> &amp;other)</td></tr>
 <tr class="memdesc:acd0971c77479071ab73ccea9b05a474f"><td class="mdescLeft">&#160;</td><td class="mdescRight">Copy constructor.  <a href="#acd0971c77479071ab73ccea9b05a474f">More...</a><br /></td></tr>
 <tr class="separator:acd0971c77479071ab73ccea9b05a474f"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a3bae556a802be83cc6a9f48aa0d7e4b3"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_cubby_flow_1_1_vector.html#a3bae556a802be83cc6a9f48aa0d7e4b3">Vector</a> (<a class="el" href="class_cubby_flow_1_1_vector.html">Vector</a> &amp;&amp;other) noexcept</td></tr>
+<tr class="memdesc:a3bae556a802be83cc6a9f48aa0d7e4b3"><td class="mdescLeft">&#160;</td><td class="mdescRight">Move constructor.  <a href="#a3bae556a802be83cc6a9f48aa0d7e4b3">More...</a><br /></td></tr>
+<tr class="separator:a3bae556a802be83cc6a9f48aa0d7e4b3"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a8faed9149f38b2b256d485ba9229626a"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_cubby_flow_1_1_vector.html#a8faed9149f38b2b256d485ba9229626a">~Vector</a> ()=default</td></tr>
+<tr class="memdesc:a8faed9149f38b2b256d485ba9229626a"><td class="mdescLeft">&#160;</td><td class="mdescRight">Default destructor.  <a href="#a8faed9149f38b2b256d485ba9229626a">More...</a><br /></td></tr>
+<tr class="separator:a8faed9149f38b2b256d485ba9229626a"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a6f2fc4351732f5e31bfaa4658fed5d7a"><td class="memItemLeft" align="right" valign="top"><a class="el" href="class_cubby_flow_1_1_vector.html">Vector</a> &amp;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_cubby_flow_1_1_vector.html#a6f2fc4351732f5e31bfaa4658fed5d7a">operator=</a> (const <a class="el" href="class_cubby_flow_1_1_vector.html">Vector</a> &amp;other)</td></tr>
 <tr class="memdesc:a6f2fc4351732f5e31bfaa4658fed5d7a"><td class="mdescLeft">&#160;</td><td class="mdescRight">Copy assignment operator.  <a href="#a6f2fc4351732f5e31bfaa4658fed5d7a">More...</a><br /></td></tr>
 <tr class="separator:a6f2fc4351732f5e31bfaa4658fed5d7a"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a44b7af1341ff90f45a422ac1323d17ad"><td class="memItemLeft" align="right" valign="top"><a class="el" href="class_cubby_flow_1_1_vector.html">Vector</a> &amp;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_cubby_flow_1_1_vector.html#a44b7af1341ff90f45a422ac1323d17ad">operator=</a> (<a class="el" href="class_cubby_flow_1_1_vector.html">Vector</a> &amp;&amp;other) noexcept</td></tr>
+<tr class="memdesc:a44b7af1341ff90f45a422ac1323d17ad"><td class="mdescLeft">&#160;</td><td class="mdescRight">Move assignment operator.  <a href="#a44b7af1341ff90f45a422ac1323d17ad">More...</a><br /></td></tr>
+<tr class="separator:a44b7af1341ff90f45a422ac1323d17ad"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a250c86587f90a980f469a207bb4304c7"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_cubby_flow_1_1_vector.html#a250c86587f90a980f469a207bb4304c7">Set</a> (const T &amp;s)</td></tr>
 <tr class="memdesc:a250c86587f90a980f469a207bb4304c7"><td class="mdescLeft">&#160;</td><td class="mdescRight">Sets all elements to <code>s</code>.  <a href="#a250c86587f90a980f469a207bb4304c7">More...</a><br /></td></tr>
 <tr class="separator:a250c86587f90a980f469a207bb4304c7"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -146,9 +156,6 @@ Public Member Functions</h2></td></tr>
 <tr class="memitem:ad3eaaf95e2fa19ac8f2383fb3e65ac2f"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_cubby_flow_1_1_vector.html#ad3eaaf95e2fa19ac8f2383fb3e65ac2f">Normalize</a> ()</td></tr>
 <tr class="memdesc:ad3eaaf95e2fa19ac8f2383fb3e65ac2f"><td class="mdescLeft">&#160;</td><td class="mdescRight">Normalizes this vector.  <a href="#ad3eaaf95e2fa19ac8f2383fb3e65ac2f">More...</a><br /></td></tr>
 <tr class="separator:ad3eaaf95e2fa19ac8f2383fb3e65ac2f"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a9e616306e85fea70d8bb699fdfb10bf6"><td class="memItemLeft" align="right" valign="top">constexpr size_t&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_cubby_flow_1_1_vector.html#a9e616306e85fea70d8bb699fdfb10bf6">size</a> () const</td></tr>
-<tr class="memdesc:a9e616306e85fea70d8bb699fdfb10bf6"><td class="mdescLeft">&#160;</td><td class="mdescRight">Returns the size of the vector.  <a href="#a9e616306e85fea70d8bb699fdfb10bf6">More...</a><br /></td></tr>
-<tr class="separator:a9e616306e85fea70d8bb699fdfb10bf6"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a6f39c350ccca862d4f94ea8516992b65"><td class="memItemLeft" align="right" valign="top">T *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_cubby_flow_1_1_vector.html#a6f39c350ccca862d4f94ea8516992b65">data</a> ()</td></tr>
 <tr class="memdesc:a6f39c350ccca862d4f94ea8516992b65"><td class="mdescLeft">&#160;</td><td class="mdescRight">Returns the raw pointer to the vector data.  <a href="#a6f39c350ccca862d4f94ea8516992b65">More...</a><br /></td></tr>
 <tr class="separator:a6f39c350ccca862d4f94ea8516992b65"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -407,6 +414,12 @@ Public Member Functions</h2></td></tr>
 <tr class="memitem:ade631f68ef849c5448c2b3d2cd290df2 inherit pub_methods_class_cubby_flow_1_1_vector_expression"><td class="memItemLeft" align="right" valign="top">const <a class="el" href="class_cubby_flow_1_1_vector.html">Vector</a>&lt; T, N &gt; &amp;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_cubby_flow_1_1_vector_expression.html#ade631f68ef849c5448c2b3d2cd290df2">operator()</a> () const</td></tr>
 <tr class="memdesc:ade631f68ef849c5448c2b3d2cd290df2 inherit pub_methods_class_cubby_flow_1_1_vector_expression"><td class="mdescLeft">&#160;</td><td class="mdescRight">Returns actual implementation (the subclass).  <a href="class_cubby_flow_1_1_vector_expression.html#ade631f68ef849c5448c2b3d2cd290df2">More...</a><br /></td></tr>
 <tr class="separator:ade631f68ef849c5448c2b3d2cd290df2 inherit pub_methods_class_cubby_flow_1_1_vector_expression"><td class="memSeparator" colspan="2">&#160;</td></tr>
+</table><table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pub-static-methods"></a>
+Static Public Member Functions</h2></td></tr>
+<tr class="memitem:a2ad1c4248359cfc0f7be642866c4ef42"><td class="memItemLeft" align="right" valign="top">static constexpr size_t&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_cubby_flow_1_1_vector.html#a2ad1c4248359cfc0f7be642866c4ef42">size</a> ()</td></tr>
+<tr class="memdesc:a2ad1c4248359cfc0f7be642866c4ef42"><td class="mdescLeft">&#160;</td><td class="mdescRight">Returns the size of the vector.  <a href="#a2ad1c4248359cfc0f7be642866c4ef42">More...</a><br /></td></tr>
+<tr class="separator:a2ad1c4248359cfc0f7be642866c4ef42"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
 <a name="details" id="details"></a><h2 class="groupheader">Detailed Description</h2>
 <div class="textblock"><h3>template&lt;typename T, size_t N&gt;<br />
@@ -440,7 +453,7 @@ template&lt;typename T, size_t N&gt; </div>
 </div>
 <h2 class="groupheader">Constructor &amp; Destructor Documentation</h2>
 <a id="ab685aeae9310c0491782ceb87faf4d54"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#ab685aeae9310c0491782ceb87faf4d54">&#9670;&nbsp;</a></span>Vector() <span class="overload">[1/5]</span></h2>
+<h2 class="memtitle"><span class="permalink"><a href="#ab685aeae9310c0491782ceb87faf4d54">&#9670;&nbsp;</a></span>Vector() <span class="overload">[1/6]</span></h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -461,7 +474,7 @@ template&lt;typename T , size_t N&gt; </div>
 </div>
 </div>
 <a id="a0e205cf178b02d0a8eb90dbe723b0e8f"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a0e205cf178b02d0a8eb90dbe723b0e8f">&#9670;&nbsp;</a></span>Vector() <span class="overload">[2/5]</span></h2>
+<h2 class="memtitle"><span class="permalink"><a href="#a0e205cf178b02d0a8eb90dbe723b0e8f">&#9670;&nbsp;</a></span>Vector() <span class="overload">[2/6]</span></h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -493,7 +506,7 @@ template&lt;typename... Params&gt; </div>
 </div>
 </div>
 <a id="a3099656285fdf0f3bad4ada2d0d6f5b1"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a3099656285fdf0f3bad4ada2d0d6f5b1">&#9670;&nbsp;</a></span>Vector() <span class="overload">[3/5]</span></h2>
+<h2 class="memtitle"><span class="permalink"><a href="#a3099656285fdf0f3bad4ada2d0d6f5b1">&#9670;&nbsp;</a></span>Vector() <span class="overload">[3/6]</span></h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -517,7 +530,7 @@ template&lt;typename U&gt; </div>
 </div>
 </div>
 <a id="ad96bd16bb2ff2f78d7f15f4f85320630"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#ad96bd16bb2ff2f78d7f15f4f85320630">&#9670;&nbsp;</a></span>Vector() <span class="overload">[4/5]</span></h2>
+<h2 class="memtitle"><span class="permalink"><a href="#ad96bd16bb2ff2f78d7f15f4f85320630">&#9670;&nbsp;</a></span>Vector() <span class="overload">[4/6]</span></h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -541,7 +554,7 @@ template&lt;typename E&gt; </div>
 </div>
 </div>
 <a id="acd0971c77479071ab73ccea9b05a474f"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#acd0971c77479071ab73ccea9b05a474f">&#9670;&nbsp;</a></span>Vector() <span class="overload">[5/5]</span></h2>
+<h2 class="memtitle"><span class="permalink"><a href="#acd0971c77479071ab73ccea9b05a474f">&#9670;&nbsp;</a></span>Vector() <span class="overload">[5/6]</span></h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -559,6 +572,65 @@ template&lt;typename T , size_t N&gt; </div>
 </div><div class="memdoc">
 
 <p>Copy constructor. </p>
+
+</div>
+</div>
+<a id="a3bae556a802be83cc6a9f48aa0d7e4b3"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a3bae556a802be83cc6a9f48aa0d7e4b3">&#9670;&nbsp;</a></span>Vector() <span class="overload">[6/6]</span></h2>
+
+<div class="memitem">
+<div class="memproto">
+<div class="memtemplate">
+template&lt;typename T , size_t N&gt; </div>
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="class_cubby_flow_1_1_vector.html">CubbyFlow::Vector</a>&lt; T, N &gt;::<a class="el" href="class_cubby_flow_1_1_vector.html">Vector</a> </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="class_cubby_flow_1_1_vector.html">Vector</a>&lt; T, N &gt; &amp;&amp;&#160;</td>
+          <td class="paramname"><em>other</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">noexcept</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Move constructor. </p>
+
+</div>
+</div>
+<a id="a8faed9149f38b2b256d485ba9229626a"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a8faed9149f38b2b256d485ba9229626a">&#9670;&nbsp;</a></span>~Vector()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<div class="memtemplate">
+template&lt;typename T, size_t N&gt; </div>
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="class_cubby_flow_1_1_vector.html">CubbyFlow::Vector</a>&lt; T, N &gt;::~<a class="el" href="class_cubby_flow_1_1_vector.html">Vector</a> </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">default</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Default destructor. </p>
 
 </div>
 </div>
@@ -1873,7 +1945,7 @@ template&lt;typename E &gt; </div>
 </div>
 </div>
 <a id="a6f2fc4351732f5e31bfaa4658fed5d7a"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a6f2fc4351732f5e31bfaa4658fed5d7a">&#9670;&nbsp;</a></span>operator=() <span class="overload">[1/5]</span></h2>
+<h2 class="memtitle"><span class="permalink"><a href="#a6f2fc4351732f5e31bfaa4658fed5d7a">&#9670;&nbsp;</a></span>operator=() <span class="overload">[1/6]</span></h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -1894,8 +1966,38 @@ template&lt;typename T , size_t N&gt; </div>
 
 </div>
 </div>
+<a id="a44b7af1341ff90f45a422ac1323d17ad"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a44b7af1341ff90f45a422ac1323d17ad">&#9670;&nbsp;</a></span>operator=() <span class="overload">[2/6]</span></h2>
+
+<div class="memitem">
+<div class="memproto">
+<div class="memtemplate">
+template&lt;typename T , size_t N&gt; </div>
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="class_cubby_flow_1_1_vector.html">Vector</a>&lt; T, N &gt; &amp; <a class="el" href="class_cubby_flow_1_1_vector.html">CubbyFlow::Vector</a>&lt; T, N &gt;::operator= </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="class_cubby_flow_1_1_vector.html">Vector</a>&lt; T, N &gt; &amp;&amp;&#160;</td>
+          <td class="paramname"><em>other</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">noexcept</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Move assignment operator. </p>
+
+</div>
+</div>
 <a id="a7a8e6754a3555f8ce56e9afdb7b0cd86"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a7a8e6754a3555f8ce56e9afdb7b0cd86">&#9670;&nbsp;</a></span>operator=() <span class="overload">[2/5]</span></h2>
+<h2 class="memtitle"><span class="permalink"><a href="#a7a8e6754a3555f8ce56e9afdb7b0cd86">&#9670;&nbsp;</a></span>operator=() <span class="overload">[3/6]</span></h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -1919,7 +2021,7 @@ template&lt;typename U &gt; </div>
 </div>
 </div>
 <a id="a20ed9b8cb6d2c151cf28bc6526d4cee6"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a20ed9b8cb6d2c151cf28bc6526d4cee6">&#9670;&nbsp;</a></span>operator=() <span class="overload">[3/5]</span></h2>
+<h2 class="memtitle"><span class="permalink"><a href="#a20ed9b8cb6d2c151cf28bc6526d4cee6">&#9670;&nbsp;</a></span>operator=() <span class="overload">[4/6]</span></h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -1943,7 +2045,7 @@ template&lt;typename E &gt; </div>
 </div>
 </div>
 <a id="a14f20eb3775c9c3b7bd42371651e1f03"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a14f20eb3775c9c3b7bd42371651e1f03">&#9670;&nbsp;</a></span>operator=() <span class="overload">[4/5]</span></h2>
+<h2 class="memtitle"><span class="permalink"><a href="#a14f20eb3775c9c3b7bd42371651e1f03">&#9670;&nbsp;</a></span>operator=() <span class="overload">[5/6]</span></h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -1965,7 +2067,7 @@ template&lt;typename U &gt; </div>
 </div>
 </div>
 <a id="abd214dc59038f9bcf8657d3868bb8c23"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#abd214dc59038f9bcf8657d3868bb8c23">&#9670;&nbsp;</a></span>operator=() <span class="overload">[5/5]</span></h2>
+<h2 class="memtitle"><span class="permalink"><a href="#abd214dc59038f9bcf8657d3868bb8c23">&#9670;&nbsp;</a></span>operator=() <span class="overload">[6/6]</span></h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -2303,21 +2405,29 @@ template&lt;typename T , size_t N&gt; </div>
 
 </div>
 </div>
-<a id="a9e616306e85fea70d8bb699fdfb10bf6"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a9e616306e85fea70d8bb699fdfb10bf6">&#9670;&nbsp;</a></span>size()</h2>
+<a id="a2ad1c4248359cfc0f7be642866c4ef42"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a2ad1c4248359cfc0f7be642866c4ef42">&#9670;&nbsp;</a></span>size()</h2>
 
 <div class="memitem">
 <div class="memproto">
 <div class="memtemplate">
 template&lt;typename T , size_t N&gt; </div>
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
       <table class="memname">
         <tr>
           <td class="memname">constexpr size_t <a class="el" href="class_cubby_flow_1_1_vector.html">CubbyFlow::Vector</a>&lt; T, N &gt;::size </td>
           <td>(</td>
           <td class="paramname"></td><td>)</td>
-          <td> const</td>
+          <td></td>
         </tr>
       </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">static</span></span>  </td>
+  </tr>
+</table>
 </div><div class="memdoc">
 
 <p>Returns the size of the vector. </p>
@@ -2469,7 +2579,7 @@ template&lt;typename T , size_t N&gt; </div>
 </div>
 </div>
 <hr class="footer"/><address class="footer"><small>
-Generated on Fri Oct 9 2020 07:04:03 for CubbyFlow by &#160;<a href="http://www.doxygen.org/index.html">
+Generated on Mon Oct 26 2020 13:05:33 for CubbyFlow by &#160;<a href="http://www.doxygen.org/index.html">
 <img class="footer" src="doxygen.png" alt="doxygen"/>
 </a> 1.8.13
 </small></address>

@@ -96,12 +96,14 @@ $(function() {
   <tr class="even"><td class="entry"><a class="el" href="class_cubby_flow_1_1_surface2.html#ae4a6967c192f5a7014b6f9226f99511d">IsInsideLocal</a>(const Vector2D &amp;otherPoint) const</td><td class="entry"><a class="el" href="class_cubby_flow_1_1_surface2.html">CubbyFlow::Surface2</a></td><td class="entry"><span class="mlabel">protected</span><span class="mlabel">virtual</span></td></tr>
   <tr><td class="entry"><a class="el" href="class_cubby_flow_1_1_surface2.html#a664e3565bc2b68118809ca36034a0398">isNormalFlipped</a></td><td class="entry"><a class="el" href="class_cubby_flow_1_1_surface2.html">CubbyFlow::Surface2</a></td><td class="entry"></td></tr>
   <tr class="even"><td class="entry"><a class="el" href="class_cubby_flow_1_1_surface2.html#a328c671c66a870d4fda04ee9cc233584">IsValidGeometry</a>() const</td><td class="entry"><a class="el" href="class_cubby_flow_1_1_surface2.html">CubbyFlow::Surface2</a></td><td class="entry"><span class="mlabel">virtual</span></td></tr>
-  <tr><td class="entry"><a class="el" href="class_cubby_flow_1_1_surface2.html#ad9c86912da9ae7e14c47df622708d8a6">operator=</a>(const Surface2 &amp;other)=default</td><td class="entry"><a class="el" href="class_cubby_flow_1_1_surface2.html">CubbyFlow::Surface2</a></td><td class="entry"></td></tr>
-  <tr class="even"><td class="entry"><a class="el" href="class_cubby_flow_1_1_surface2.html#ae529206c845ce632b347d7693da85d92">Surface2</a>(const Transform2 &amp;transform=Transform2(), bool isNormalFlipped=false)</td><td class="entry"><a class="el" href="class_cubby_flow_1_1_surface2.html">CubbyFlow::Surface2</a></td><td class="entry"></td></tr>
-  <tr><td class="entry"><a class="el" href="class_cubby_flow_1_1_surface2.html#a8bcc3396ffa1ea19bc7e74cdd3074af7">Surface2</a>(const Surface2 &amp;other)</td><td class="entry"><a class="el" href="class_cubby_flow_1_1_surface2.html">CubbyFlow::Surface2</a></td><td class="entry"></td></tr>
+  <tr><td class="entry"><a class="el" href="class_cubby_flow_1_1_surface2.html#a256bc2827802f960871e52f727eced44">operator=</a>(const Surface2 &amp;)=default</td><td class="entry"><a class="el" href="class_cubby_flow_1_1_surface2.html">CubbyFlow::Surface2</a></td><td class="entry"></td></tr>
+  <tr class="even"><td class="entry"><a class="el" href="class_cubby_flow_1_1_surface2.html#a6758a18d29bee8e32204f74e13224f7d">operator=</a>(Surface2 &amp;&amp;) noexcept=default</td><td class="entry"><a class="el" href="class_cubby_flow_1_1_surface2.html">CubbyFlow::Surface2</a></td><td class="entry"></td></tr>
+  <tr><td class="entry"><a class="el" href="class_cubby_flow_1_1_surface2.html#a0b6869b526e0770f8f3d5548a01b902f">Surface2</a>(Transform2 _transform=Transform2{}, bool _isNormalFlipped=false)</td><td class="entry"><a class="el" href="class_cubby_flow_1_1_surface2.html">CubbyFlow::Surface2</a></td><td class="entry"></td></tr>
+  <tr class="even"><td class="entry"><a class="el" href="class_cubby_flow_1_1_surface2.html#afd82ceea046574352a07cda7d5f7e88c">Surface2</a>(const Surface2 &amp;)=default</td><td class="entry"><a class="el" href="class_cubby_flow_1_1_surface2.html">CubbyFlow::Surface2</a></td><td class="entry"></td></tr>
+  <tr><td class="entry"><a class="el" href="class_cubby_flow_1_1_surface2.html#a871d213f43e14eff665d807886fcecbf">Surface2</a>(Surface2 &amp;&amp;) noexcept=default</td><td class="entry"><a class="el" href="class_cubby_flow_1_1_surface2.html">CubbyFlow::Surface2</a></td><td class="entry"></td></tr>
   <tr class="even"><td class="entry"><a class="el" href="class_cubby_flow_1_1_surface2.html#a430c746b414c55d1f949160820ff9903">transform</a></td><td class="entry"><a class="el" href="class_cubby_flow_1_1_surface2.html">CubbyFlow::Surface2</a></td><td class="entry"></td></tr>
   <tr><td class="entry"><a class="el" href="class_cubby_flow_1_1_surface2.html#af5c2ea1adfecdb73f5db531adce1219d">UpdateQueryEngine</a>()</td><td class="entry"><a class="el" href="class_cubby_flow_1_1_surface2.html">CubbyFlow::Surface2</a></td><td class="entry"><span class="mlabel">virtual</span></td></tr>
-  <tr class="even"><td class="entry"><a class="el" href="class_cubby_flow_1_1_surface2.html#a9f21693fe03488bbe9c39656b8d8bd31">~Surface2</a>()</td><td class="entry"><a class="el" href="class_cubby_flow_1_1_surface2.html">CubbyFlow::Surface2</a></td><td class="entry"><span class="mlabel">virtual</span></td></tr>
+  <tr class="even"><td class="entry"><a class="el" href="class_cubby_flow_1_1_surface2.html#ae58c45dd77d75646f76d60d60d3f1299">~Surface2</a>()=default</td><td class="entry"><a class="el" href="class_cubby_flow_1_1_surface2.html">CubbyFlow::Surface2</a></td><td class="entry"><span class="mlabel">virtual</span></td></tr>
 </table></div><!-- contents -->
 <!-- HTML footer for doxygen 1.8.8-->
 <!-- start footer part -->
@@ -111,7 +113,7 @@ $(function() {
 </div>
 </div>
 <hr class="footer"/><address class="footer"><small>
-Generated on Fri Oct 9 2020 07:04:02 for CubbyFlow by &#160;<a href="http://www.doxygen.org/index.html">
+Generated on Mon Oct 26 2020 13:05:32 for CubbyFlow by &#160;<a href="http://www.doxygen.org/index.html">
 <img class="footer" src="doxygen.png" alt="doxygen"/>
 </a> 1.8.13
 </small></address>

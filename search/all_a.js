@@ -1,6 +1,6 @@
 var searchData=
 [
-  ['kdtree',['KdTree',['../class_cubby_flow_1_1_kd_tree.html',1,'CubbyFlow::KdTree&lt; T, K &gt;'],['../class_cubby_flow_1_1_kd_tree.html#ab09dceec1b9572f19c8bae060012d6ef',1,'CubbyFlow::KdTree::KdTree()']]],
+  ['kdtree',['KdTree',['../class_cubby_flow_1_1_kd_tree.html',1,'CubbyFlow']]],
   ['kdtree_2dimpl_2ehpp',['KdTree-Impl.hpp',['../_kd_tree-_impl_8hpp.html',1,'']]],
   ['kdtree_2ehpp',['KdTree.hpp',['../_kd_tree_8hpp.html',1,'']]],
   ['kdtree_3c_20double_2c_202_20_3e',['KdTree&lt; double, 2 &gt;',['../class_cubby_flow_1_1_kd_tree.html',1,'CubbyFlow']]],

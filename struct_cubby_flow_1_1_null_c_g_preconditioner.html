@@ -74,6 +74,7 @@ $(function() {
 <div class="header">
   <div class="summary">
 <a href="#pub-methods">Public Member Functions</a> &#124;
+<a href="#pub-static-methods">Static Public Member Functions</a> &#124;
 <a href="struct_cubby_flow_1_1_null_c_g_preconditioner-members.html">List of all members</a>  </div>
   <div class="headertitle">
 <div class="title">CubbyFlow::NullCGPreconditioner&lt; BLASType &gt; Struct Template Reference<span class="mlabels"><span class="mlabel">final</span></span></div>  </div>
@@ -87,10 +88,13 @@ $(function() {
 <table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pub-methods"></a>
 Public Member Functions</h2></td></tr>
-<tr class="memitem:ab538858c7953760281d47bf3f8134798"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="struct_cubby_flow_1_1_null_c_g_preconditioner.html#ab538858c7953760281d47bf3f8134798">Build</a> (const typename BLASType::MatrixType &amp;)</td></tr>
-<tr class="separator:ab538858c7953760281d47bf3f8134798"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a2632fe309c49325cef2deef6e2a18b10"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="struct_cubby_flow_1_1_null_c_g_preconditioner.html#a2632fe309c49325cef2deef6e2a18b10">Solve</a> (const typename BLASType::VectorType &amp;b, typename BLASType::VectorType *x)</td></tr>
 <tr class="separator:a2632fe309c49325cef2deef6e2a18b10"><td class="memSeparator" colspan="2">&#160;</td></tr>
+</table><table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pub-static-methods"></a>
+Static Public Member Functions</h2></td></tr>
+<tr class="memitem:a90b13bb5dcaac1a0e4ea261516e5b785"><td class="memItemLeft" align="right" valign="top">static void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="struct_cubby_flow_1_1_null_c_g_preconditioner.html#a90b13bb5dcaac1a0e4ea261516e5b785">Build</a> (const typename BLASType::MatrixType &amp;)</td></tr>
+<tr class="separator:a90b13bb5dcaac1a0e4ea261516e5b785"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
 <a name="details" id="details"></a><h2 class="groupheader">Detailed Description</h2>
 <div class="textblock"><h3>template&lt;typename BLASType&gt;<br />
@@ -99,8 +103,8 @@ struct CubbyFlow::NullCGPreconditioner&lt; BLASType &gt;</h3>
 <p>No-op pre-conditioner for conjugate gradient. </p>
 <p>This pre-conditioner does nothing but simply copies the input vector to the output vector. Thus, it can be considered as an identity matrix. </p>
 </div><h2 class="groupheader">Member Function Documentation</h2>
-<a id="ab538858c7953760281d47bf3f8134798"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#ab538858c7953760281d47bf3f8134798">&#9670;&nbsp;</a></span>Build()</h2>
+<a id="a90b13bb5dcaac1a0e4ea261516e5b785"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a90b13bb5dcaac1a0e4ea261516e5b785">&#9670;&nbsp;</a></span>Build()</h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -111,7 +115,7 @@ template&lt;typename BLASType &gt; </div>
   <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname">void <a class="el" href="struct_cubby_flow_1_1_null_c_g_preconditioner.html">CubbyFlow::NullCGPreconditioner</a>&lt; BLASType &gt;::Build </td>
+          <td class="memname">static void <a class="el" href="struct_cubby_flow_1_1_null_c_g_preconditioner.html">CubbyFlow::NullCGPreconditioner</a>&lt; BLASType &gt;::Build </td>
           <td>(</td>
           <td class="paramtype">const typename BLASType::MatrixType &amp;&#160;</td>
           <td class="paramname"></td><td>)</td>
@@ -120,7 +124,7 @@ template&lt;typename BLASType &gt; </div>
       </table>
   </td>
   <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel">inline</span></span>  </td>
+<span class="mlabels"><span class="mlabel">inline</span><span class="mlabel">static</span></span>  </td>
   </tr>
 </table>
 </div><div class="memdoc">
@@ -177,7 +181,7 @@ template&lt;typename BLASType &gt; </div>
 </div>
 </div>
 <hr class="footer"/><address class="footer"><small>
-Generated on Fri Oct 9 2020 07:04:02 for CubbyFlow by &#160;<a href="http://www.doxygen.org/index.html">
+Generated on Mon Oct 26 2020 13:05:32 for CubbyFlow by &#160;<a href="http://www.doxygen.org/index.html">
 <img class="footer" src="doxygen.png" alt="doxygen"/>
 </a> 1.8.13
 </small></address>
